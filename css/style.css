@@ -1,0 +1,165 @@
+/*footer*/
+footer {
+  background: black;
+  height: auto;
+  width: auto;
+  padding-top: 40px;
+  color: #fff;
+}
+footer .footer-content p {
+  max-width: 500px;
+  margin: auto;
+  line-height: 28px;
+  font-size: 14px;
+}
+
+.socials {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+}
+.socials li {
+  margin: 0 10px;
+}
+.socials li a {
+  text-decoration: none;
+  color: #fff;
+}
+.socials li a i {
+  font-size: 2rem;
+  transition: color ease;
+}
+.socials li a i:hover {
+  color: aqua;
+}
+
+.footer-bottom {
+  background: #000;
+  width: auto;
+  padding: auto;
+  text-align: center;
+}
+.footer-bottom p {
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: lowercase;
+}
+
+/*formulario*/
+form {
+  width: 450px;
+  margin: auto;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 10px 20px;
+  box-sizing: border-box;
+}
+form input, form textarea {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 7px;
+  box-sizing: border-box;
+  font-size: 17px;
+  border: none;
+}
+@media screen and (max-width: 375px) {
+  form {
+    width: 450px;
+    margin: auto;
+  }
+}
+
+/*WSP*/
+.bloque-whatsapp .whatsapp {
+  text-decoration: none;
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  z-index: 100;
+}
+.bloque-whatsapp .whatsapp i {
+  font-size: 2rem;
+  color: greenyellow;
+  margin-top: 13px;
+}
+
+/*------------------------FUENTES----------------------------------*/
+.title {
+  font-family: "Niramit", sans-serif;
+  text-decoration: underline;
+  font-size: 50px;
+  color: black;
+}
+
+.subtitle {
+  font-family: "Mallanna", sans-serif;
+  font-size: 25px;
+}
+
+.text {
+  font-family: "Mallanna", sans-serif;
+}
+
+/*flexbox para mi footer*/
+footer .footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+/**/
+/*----------para mi textos-----------*/
+/*si hace una compra*/
+/*error 404*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.error404 {
+  background: blue;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.error404 .container-404 {
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+  background: #fff;
+  padding: 20px;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  line-height: 1.7;
+}
+@media screen and (max-width: 375px) {
+  .error404 {
+    width: 450px;
+    margin: auto;
+  }
+}
+
+.boton {
+  display: inline-block;
+  margin-top: 15px;
+  text-decoration: none;
+  background: blue;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+/*# sourceMappingURL=style.css.map */

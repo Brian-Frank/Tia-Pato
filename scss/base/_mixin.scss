@@ -1,0 +1,9 @@
+@mixin textos ($color){
+    font-size: 20px;
+    color: $color;
+}
+/**/
+/*----------para mi textos-----------*/
+// .text{
+//     @include textos(red);
+//   }

@@ -1,0 +1,178 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+/*------------------------------------------------------MENU-------------------------------------------------*/
+
+
+/*--------------------------------------------------BODY-----------------------------------------------------*/
+.title{
+    font-family: 'Niramit', sans-serif;
+    text-decoration: underline;
+    font-size: 50px;
+}
+.subtitle{
+    font-family: 'Mallanna', sans-serif;
+    font-size: 25px;
+}
+.text{
+    font-family: 'Mallanna', sans-serif;
+}
+
+/*-----------------------------------------------------MAIN------------------------------------------------*/
+/*para mi sector de "bandejas y tortas"*/
+/* .imagen-tortas{
+    width: 100%;        
+    transition: all 1s;
+    padding: 15px;
+}
+.imagen-tortas:hover{
+    transform: scale(1.5);  efecto de aumentar el tamaño de las fotos en bandejas y tortas
+}
+.row{
+    display: flex;    para poder dejarlo en columnas
+    padding: 50px;   
+}
+.column{
+    flex: 50%;    
+    padding: 25px; para que esten un poco mas separadas
+}
+
+.column .imagen-tortas{
+    margin-top: 25px;
+} */
+/*fin de bandejas y tortas*/
+
+/*formulario en contacto*/
+form{
+    width: 450px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+
+@media all and (max-width: 375px){
+    form{
+        width: 450px;
+        margin: auto;
+        background: rgba(0, 0, 0, 0.4);
+        padding: 10px 20px;
+        box-sizing: border-box;
+    }
+ }
+
+.color-contacto{
+    color: white;
+    text-align: center;
+    margin: 0%;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.input, textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+}
+textarea{
+    min-height: 100px;
+    min-height: 200px;
+    min-width: 100px;
+
+}
+#botonenviar{
+   background: #31384a;
+   color: #fff;
+   padding: 20px;
+}
+/*fin del formulario.*/
+/*fuentes*/
+
+
+
+
+/*-------------------------------------------------FOOTER----------------------------------------------------*/
+footer{
+    background: #111;
+    height: auto;
+    width: auto;
+    font-family:Arial, Helvetica, sans-serif;
+    padding-top: 40px;
+    color: #fff;
+
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: #fff;
+}
+.socials a i{
+    font-size: 2rem;
+    transition: color 4.s ease;
+}
+
+.socials a:hover i {
+    color: aqua;
+}
+.footer-bottom{
+    background: #000;
+    width: auto;
+    padding: auto;
+    text-align: center;
+}
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform:lowercase;
+}
+
+
+.whatsapp {
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:40px;
+    right:40px;
+    background-color:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:30px;
+    z-index:100;
+}
+
+.whatsapp-icon {
+    margin-top:13px;
+}

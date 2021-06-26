@@ -1,0 +1,51 @@
+/*footer*/
+footer{
+    background: black;
+    height: auto;
+    width: auto;
+    padding-top: 40px;
+    color: #fff;
+    .footer-content{
+        @extend %flexbox;
+        p{
+            max-width: 500px;
+            margin: auto;
+            line-height: 28px;
+            font-size: 14px;
+
+        }
+    }
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+    li{
+        margin: 0 10px;
+        a{
+            text-decoration: none;
+            color: #fff;
+            i{
+                font-size: 2rem;
+                transition: color ease;
+                &:hover{
+                    color: aqua;
+                }
+                
+            }
+        }
+    }
+}
+.footer-bottom{
+    background: #000;
+    width: auto;
+    padding: auto;
+    text-align: center;
+    p{
+        font-size: 14px;
+        word-spacing: 2px;
+        text-transform: lowercase;
+    }
+}
