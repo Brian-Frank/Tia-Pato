@@ -55,21 +55,21 @@
         </nav>
     </header>
       <!----------------------------------------------pagina principal--------------------------------------------------->
-      <main >
-          <form action="">
-            <h2 class="subtitle text-center color-contacto">Para contactarnos rellenar el seguiente formulario.</h2>
-            <!--<label for="iname">Nombre</label>-->
-            <input type="text" name="name" placeholder="Nombre" id="iname">
-            <input type="text" name="surname" placeholder="Apellido" id="isurname">
-            <input type="email" name="email" placeholder="Email" id="iemail">
-            <input type="tel" name="telefono" placeholder="Telefo" id="itelefono">
-            <textarea name="Text" placeholder="Dejanos tu mensaje" cols="30" rows="10"></textarea>
-            <input type="button" value="ENVIAR" id="botonenviar">
-        </form>
-        <section class="bloque-whatsapp">
-          <a href="https://web.whatsapp.com/" class="whatsapp" target="_blank">
-            <i class="fa fa-whatsapp whatsapp-icon"></i>
-          </a>
+      <main>
+        <section class="container">
+          <h1>Contactanos!</h1>
+        </section>
+        <section class="container">
+          <form action="enviar.php" method="POST"></form>
+            <input type="text" name="Nombre" placeholder="Nombre">
+            <input type="text" name="Correo" placeholder="Correo">
+            <input type="text" name="Telefono" placeholder="Telefono">
+            <input type="email"name="email" id="email" placeholder="example@example.com">
+            <textarea 
+              name="comments" id="" cols="30" rows="10" placeholder="Deje aquí un comentario...">
+            </textarea>
+            <button type="reset">Borrar</button>
+            <button type="submit">Enviar</button>  
         </section>
       </main>
       <!------------------------------------------------footer---------------------------------------------------->
