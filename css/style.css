@@ -18,7 +18,8 @@ footer .footer-content p {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 1rem 0 3rem 0;
+  padding: 10px;
+  margin: 5px;
 }
 .socials li {
   margin: 0 10px;
