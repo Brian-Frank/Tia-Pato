@@ -4,11 +4,15 @@
     text-decoration: underline;
     font-size: 50px;
     color: nth($colores, 6);
-    padding: 50px;
+    padding: 100px;
+    padding-bottom: 40px;
+    margin: 0 ;
   }
   .subtitle{
     font-family: 'Mallanna', sans-serif;
     font-size: 25px;
+    padding: 10px;
+    margin: 0 ;
   }
   .text{
     font-family: 'Mallanna', sans-serif;
