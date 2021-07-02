@@ -112,6 +112,17 @@ form input, form textarea {
 
 .text {
   font-family: "Mallanna", sans-serif;
+  text-align: center;
+}
+
+.titleN {
+  font-family: "Niramit", sans-serif;
+  text-decoration: underline;
+  font-size: 27px;
+  color: black;
+  padding: 125px;
+  padding-bottom: 30px;
+  margin: 0;
 }
 
 /*flexbox para mi footer*/
