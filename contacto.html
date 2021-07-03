@@ -24,7 +24,8 @@
   <body>
      <!---------------------------------------------Menu----------------------------------------------------------->
      <header>
-      <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark ">
+       <!-- fixed-top -->
+      <nav class="navbar  navbar-expand-lg navbar-dark bg-dark ">
           <div class="container-fluid">
             <a class="navbar-brand " href="index.html" title="Acceso directo a inicio" >
               <img src="https://i.ibb.co/qj3dnDp/6cea76ce-2341-4012-a0f6-609bcadeba03.jpg" class="rounded-circle" alt= "Logo del menu de TiaPato" width="100" height="100">
@@ -56,21 +57,56 @@
     </header>
       <!----------------------------------------------pagina principal--------------------------------------------------->
       <main>
-        <section class="container">
-          <h1>Contactanos!</h1>
+        <section class="contact">
+          <div class="content">
+            <h1>Contactanos!</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa quos reprehenderit dolorem voluptate explicabo cupiditate perspiciatis esse ipsum, vero alias sed odio consectetur officiis, mollitia ipsam accusamus quas deserunt inventore!</p>
+          </div>
         </section>
-        <section class="container">
-          <form action="enviar.php" method="POST"></form>
-            <input type="text" name="Nombre" placeholder="Nombre">
-            <input type="text" name="Correo" placeholder="Correo">
-            <input type="text" name="Telefono" placeholder="Telefono">
-            <input type="email"name="email" id="email" placeholder="example@example.com">
-            <textarea 
-              name="comments" id="" cols="30" rows="10" placeholder="Deje aquí un comentario...">
-            </textarea>
-            <button type="reset">Borrar</button>
-            <button type="submit">Enviar</button> 
-            <a href=""></a>
+        <section class="container container1">
+          <div class="contactinfo">
+            <div class="box">
+              <div class="icon"><i class="fas fa-map-marker-alt"></i></div>
+              <div class="text">
+                <h3>Addres</h3>
+                <p>La Plata, <br> Buenos Aires</p>
+              </div>
+            </div>
+            <div class="box">
+              <div class="icon"><i class="fas fa-phone"></i></div>
+              <div class="text">
+                <h3>Telefono</h3>
+                <p>221xxxxxxx</p>
+              </div>
+            </div>
+            <div class="box">
+              <div class="icon"><i class="fas fa-at"></i></div>
+              <div class="text">
+                <h3>Correo</h3>
+                <p>tiapato@gmail.com</p>
+              </div>
+            </div>
+            <div class="contactform">
+              <form>
+                <h2>Enviar mensaje</h2>
+                <div class="inputbox">
+                  <input type="text" name="" required="required">
+                  <span>Nombre y apellido</span>
+                </div>
+                <div class="inputbox">
+                  <input type="text" name="" required="required">
+                  <span>Email</span>
+                </div>
+                <div class="inputbox">
+                  <textarea required="required"></textarea>
+                  <span>Escribinos!</span>
+                </div>
+                <div class="inputbox">
+                  <input type="submit" name="" value="Enviar">
+                </div>
+              </form>
+            </div>
+          </div>
         </section>
       </main>
       <!------------------------------------------------footer---------------------------------------------------->
