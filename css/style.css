@@ -48,74 +48,49 @@ footer .footer-content p {
   text-transform: lowercase;
 }
 
-/*formulario*/
-/*NUEVO FORMULARIO*/
-* {
-  margin: 0;
-  padding: 0;
+/*FORMULARIO*/
+form {
+  width: 450px;
+  margin: auto;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 10px 20px;
   box-sizing: border-box;
+  margin-top: 20px;
+  border-radius: 7px;
 }
-
-.contact {
-  position: relative;
-  min-height: 100vh;
-  padding: 50px 100px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  background-size: cover;
-}
-.contact .content {
-  max-width: 800px;
+form h2 {
+  color: white;
   text-align: center;
+  margin: 0;
+  font-size: 30px;
+  margin-bottom: 20px;
 }
 
-.content h1 {
-  font-size: 36px;
-  font-weight: 500;
-}
-
-.content h1 p {
-  font-weight: 300;
-  color: #fff;
-}
-
-.container1 {
+.formulario {
   width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 30px;
-}
-.container1 .contactinfo {
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-}
-.container1 .contactinfo .box {
-  position: relative;
-  padding: 20px 0;
-  display: flex;
-}
-.container1 .contactinfo .box .icon {
-  min-width: 60px;
-  height: 60px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50%;
-  font-size: 22px;
-}
-.container1 .contactinfo .box .icon .text {
-  display: flex;
-  flex-direction: column;
-  margin-left: 20px;
-  font-size: 16px;
-  flex-direction: column;
-  font-weight: 300;
+  margin-bottom: 20px;
+  padding: 7px;
+  box-sizing: border-box;
+  font-size: 17px;
 }
 
+textarea {
+  min-height: 100px;
+  max-height: 200px;
+  max-width: 100%;
+}
+
+.botton {
+  background: #31384A;
+  color: #fff;
+  padding: 20px;
+}
+
+@media (max-width: 480px) {
+  form {
+    width: 100%;
+  }
+}
 /*WSP*/
 .bloque-whatsapp .whatsapp {
   text-decoration: none;
