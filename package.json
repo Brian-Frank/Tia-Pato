@@ -7,5 +7,13 @@
   },
   "author": "",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Brian-Frank/Tia-Pato.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Brian-Frank/Tia-Pato/issues"
+  },
+  "homepage": "https://github.com/Brian-Frank/Tia-Pato#readme",
   "description": ""
 }
