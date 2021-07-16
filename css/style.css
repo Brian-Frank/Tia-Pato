@@ -33,7 +33,7 @@ footer .footer-content p {
   transition: color ease;
 }
 .socials li a i:hover {
-  color: aqua;
+  color: yellowgreen;
 }
 
 .footer-bottom {
@@ -113,10 +113,14 @@ textarea {
   margin-top: 13px;
 }
 
+body {
+  background-color: yellow;
+  background-size: 100%;
+}
+
 /*------------------------FUENTES----------------------------------*/
 .title {
   font-family: "Niramit", sans-serif;
-  text-decoration: underline;
   font-size: 50px;
   color: black;
   padding: 100px;
@@ -159,9 +163,6 @@ footer .footer-content {
   text-align: center;
 }
 
-/**/
-/*----------para mi textos-----------*/
-/*si hace una compra*/
 /*error 404*/
 * {
   margin: 0;
@@ -204,10 +205,19 @@ footer .footer-content {
   border-radius: 5px;
 }
 
-.carrusel {
+.carrusel img {
   width: 70%;
-  margin: auto;
-  padding: auto;
+  max-height: 110vh;
+}
+
+.carrusel {
+  height: auto;
+}
+
+.textcarrusel {
+  font-family: "Mallanna", sans-serif;
+  text-align: center;
+  color: white;
 }
 
 /*imagenes*/
@@ -226,6 +236,7 @@ footer .footer-content {
   padding: 10px;
   margin: 20px;
   border-radius: 30px;
+  background-color: gray;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,5 +1,12 @@
-.carrusel{
+.carrusel img{
     width: 70%;
-    margin: auto;
-    padding: auto;
+    max-height: 110vh;
+}
+.carrusel{
+    height: auto;
+}
+.textcarrusel{
+    font-family: 'Mallanna', sans-serif;
+    text-align: center;
+    color:white;
 }

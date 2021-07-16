@@ -41,7 +41,7 @@
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <div class="menu collapse navbar-collapse " id="navbarSupportedContent">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
                   <a class="text nav-link active" aria-current="page" href="index.html">Inicio</a>
@@ -65,48 +65,57 @@
     </header>
       <!----------------------------------------------pagina principal--------------------------------------------------->
       <main >
-        <section  class="container">
-          <h1 class="title text-center">Pasteleria Tia Pato</h1>
-          <div class="row">
-            <div class="col-lg-6">
-                <h2 class="title" >Bandejas</h2>
-                <p class="text">
-                    Todas nuestras bandejas están hechas especialmente para cada uno, con los productos mas frescos,
-                     desde el momento que es encargado. Cada bandeja es un desafío, no todos los clientes quieren lo mismo,
-                     en mis variedades pueden encontrar Bandejas dulces o Bandejas saladas.
-                </p>
+        <section class="container">
+          <div>
+            <h1 class="title text-center">Pasteleria Tia Pato</h1>
+            <h2 class="title2 text-center">Nuestras bandejas</h2>
+            <p class="text">Todas nuestras bandejas están hechas especialmente para cada uno, con los productos mas frescos,
+              desde el momento que es encargado. Cada bandeja es un desafío, no todos los clientes quieren lo mismo,
+              en mis variedades pueden encontrar Bandejas dulces o Bandejas saladas.</p>
+          </div>
+          <div id="carouselExampleDark" class="carrusel carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
-            <div class="col-lg-6">
-              <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                <div class="carrusel carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="https://i.ibb.co/qR6qjT9/IMG-1103.jpg" class="d-block w-100" alt="foto de bandejas y el contendio" loading="lazy">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="https://i.ibb.co/j43KpNb/IMG-7398.jpg" class="d-block w-100" alt="foto de bandejas y el contendio" loading="lazy">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="https://i.ibb.co/3kSS4dB/IMG-7652.jpg" class="d-block w-100" alt="foto de bandejas y el contendio" loading="lazy">
-                  </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img src="https://i.ibb.co/qR6qjT9/IMG-1103.jpg" class="d-block w-100" alt="foto de bandejas y el contendio" loading="lazy">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="textcarrusel">Bandeja completa</h5>
                 </div>
-                <button class="botonc carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class=" carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="https://i.ibb.co/j43KpNb/IMG-7398.jpg" class="d-block w-100" alt="foto de bandejas y el contendio" loading="lazy">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="textcarrusel">Bandeja salada</h5>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="https://i.ibb.co/R3pxpvx/6-D66-FA40-5-E17-45-D2-80-F6-EA9-EFD80-D966.jpg" class="d-block w-100" alt="foto de bandejas y el contendio" loading="lazy">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="textcarrusel">Bandeja dulce</h5>
+                </div>
               </div>
             </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
           </div>
+
         </section>
      <!-------------------------------------------------tipos de bandejas------------------------------------------------->
         <section class="container-fluid">
           <h3 class="title text-center p-4">Tipos de bandejas</h3>
           <div class="row">
             <div class="col-lg-6 col-sm-12">
-              <div class="cards card">
+              <div class="cards card text-white bg-dark">
                 <div class="card-body text-center">
                   <h4 class="subtitle text-center p-4">Bandeja dulce</h4>
                   <img src="https://i.ibb.co/NWb8GJk/IMG-0941.jpg" id="imagencard" alt="bande dulce y el contendio" loading="lazy">
@@ -114,12 +123,12 @@
                     En esta bandeja vas a encontrar lo mas rico de los dulces, podes elegir 4 tipos de bandejas,
                     tenemos la bandeja completa (viene con taza y torta o mate y torta), bandeja con torta, bandeja con taza o mate o simplemente lo dulce!
                   </p>
-                  <a href="contacto.html" class="btn btn-primary">Pedime el tuyo</a>
+                  <a href="contacto.html" class="btn btn-outline-light">Pedime el tuyo</a>
                 </div>
               </div>
             </div>
             <div class="col-lg-6 col-sm-12">
-              <div class="cards card">
+              <div class="cards card text-white bg-dark">
                 <div class="card-body text-center">
                   <h4 class="subtitle text-center p-4">Bandeja salada</h4>
                   <img src="https://i.ibb.co/SvVTLj5/IMG-7398.jpg" id="imagencard" alt="bandeja salada y el contenido" loading="lazy">
@@ -127,7 +136,7 @@
                     Bandeja salada, para aquellas personas que son fans de lo salado,
                     tenemos esta increíble bandeja salada, donde lo podes pedir con cerveza o jugo, tambien aderezos caseros hecho con amor!
                   </p>
-                  <a href="contacto.html" class="btn btn-primary">Pedime el tuyo</a>
+                  <a href="contacto.html" class="btn btn-outline-light">Pedime el tuyo</a>
                 </div>
               </div>
             </div>
@@ -135,11 +144,10 @@
         </section>
         <!--------------------------------------------Tortas----------------------------------------------------->
         <section class="container ">
-          <h4 class="title2 text-center">Nuestras tortas</h4>
+          <h4 class="title text-center">Nuestras tortas</h4>
           <div class="row">
             <div class="col-lg-6 d-flex align-items-center">
               <div>
-                <h2 class="title text-center p-4">Tortas</h2>
                 <p class="text text-center p-4">
                   ¡Las tortas es una de mis mayores espacialidades, todas las tortas es un completo desafío! Cada torta es un mundo,
                    cada cliente quiere de una forma que otra persona no tuvo y eso a mi me motiva
@@ -173,7 +181,7 @@
           </div>
         </section>
         <section class="container">
-            <div class="cards card-group">
+            <div class="cards card-group bg-dark">
               <div class="cards card">
                 <img src="https://i.ibb.co/27BwcSx/0-EE7-C0-E8-957-E-4-EE5-BC02-CC3-DBF4215-B1.jpg" class="card-img-top" alt="torta ajedrez" loading="lazy">
                 <div class="card-body text-center">
@@ -182,7 +190,7 @@
                     Torta ajedrez, la mama de Matías, quiso hacerle un regalo a su hijo,
                      ella eligió una torta personalizada de tipo ajedrez, Matías es un verdadero jugador del ajedrez!
                   </p>
-                  <a href="contacto.html" class="btn btn-primary">Pedime el tuyo</a>
+                  <a href="contacto.html" class="btn btn-outline-dark">Pedime el tuyo</a>
                   <p class="card-text"><small class="text-muted"></small></p>
                 </div>
               </div>
@@ -192,9 +200,9 @@
                   <h5 class="subtitle card-title text-center">Tortas personalizadas</h5>
                   <p class="text card-text">
                     Torta del espacio, Nico recibió su regalo de cumpleaños una torta del espacio, su mama (quien hizo el regalo) nos pidió una torta del espacio
-                    (no nos dio ninguna imagen) fue una verdadero desafío! Pero a Nico le gusto muchísimo!
+                    (no nos dio ninguna imagen) fue una verdadero desafío!
                   </p>
-                  <a href="contacto.html" class="btn btn-primary">Pedime el tuyo</a>
+                  <a href="contacto.html" class="btn btn-outline-dark">Pedime el tuyo</a>
                   <p class="card-text"><small class="text-muted"></small></p>
                 </div>
               </div>
@@ -206,7 +214,7 @@
                     Torta unicornio, en esta torta nos pidieron especialmente que sea un unicornio, me llevo muchísimo trabajo,
                      pero salió todo muy bien! Renata salió muy contenta con su torta!
                   </p>
-                  <a href="contacto.html" class="btn btn-primary">Pedime el tuyo</a>
+                  <a href="contacto.html" class="btn btn-outline-dark">Pedime el tuyo</a>
                   <p class="card-text"><small class="text-muted"></small></p>
                 </div>
               </div>
